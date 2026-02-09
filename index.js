@@ -7,9 +7,14 @@ function subtract(a, b) {
     return a - b;
 }
 
+function multiply(a, b) {
+    return a * b;
+}
 add(2, 3); // returns 5
 add (10, 20); // returns 30
 add(0, 0); // returns 0
 add(-5, 5); // returns 0
 
 subtract(5, 2); // returns 3
+multiply(4, 5); 
+// returns 20
