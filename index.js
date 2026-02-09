@@ -16,5 +16,8 @@ add(0, 0); // returns 0
 add(-5, 5); // returns 0
 
 subtract(5, 2); // returns 3
-multiply(4, 5); 
-// returns 20
+multiply(4, 5); // returns 20
+subtract(2, 5); // throws an error
+multiply(0, 5); // returns 0
+multiply(-3, 4); // returns -12
+subtract(10, 5); // returns 5
